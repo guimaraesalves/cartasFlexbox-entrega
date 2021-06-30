@@ -1,0 +1,116 @@
+html {
+    font-family: "Raleway", "Helvetica", sans-serif;
+    font-weight: 400;
+    color: #2F3442;
+    height: 100%;
+    background-color: #FFFFFF;
+    position: relative;
+    
+}
+
+body {  
+    margin: auto;  
+    
+    
+  
+  }
+
+.icon {color: #BCD2DA;}
+
+.card {
+    /* display, flex-direction */
+    border: 1px solid #CAD0D2;
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+  text-shadow: #3f4446 0.1em 0.1em 0.2em;
+}
+
+
+
+.card__description {
+    /* display, flex-direction, justify-content, align-items */
+    padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card__descriptionIcon {font-size: 32px; margin-bottom: 10px;}
+
+.card__descriptionText {
+    color: #57727C;
+    font-size: 12px;
+    text-align: center;
+    max-width: calc(100% - 30%);
+    
+}
+
+.card__price {
+    text-align: center;
+    color: #57727C;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 5px 15px;
+    border-top: 1px solid #D7DBDD;
+    background-color: #cad9df;
+    }
+
+  
+  .cardGroup {
+    /* display */  
+    border: 1px solid #CAD0D2;
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+    max-width: 710px;
+    align-content: center;
+  }
+
+  
+
+    @media (max-width: 320px) {
+      .cardGroup {
+        flex-direction: column;
+        background-color: rgb(206, 206, 247);
+        
+      }
+      .icon {color: #383f42;}
+    }
+
+
+  
+    .cardGroup__card {
+      /* flex-grow, flex-shrink, flex-basis */
+      flex-grow:1 ;
+      flex-shrink: 1;
+      flex-basis: auto;  
+      border:#BCD2DA ;
+      border-radius: 5px;
+      box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+      
+    }
+  
+    .cardGroup__card {
+      border-left: 1px solid #D7DBDD;
+      align-items: stretch;
+    }
+  
+    .cardGroup__cardDescription {
+      /* flex-grow, flex-shrink, flex-basis */
+      flex-grow: 1;
+      flex-shrink: 1;
+      flex-basis: auto;
+    }
+
+    
