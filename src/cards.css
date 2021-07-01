@@ -8,12 +8,11 @@ html {
     
 }
 
-body {  
-    margin: auto;  
-    
-    
-  
-  }
+body {
+  width: 70%;
+  max-width: 710px;
+  margin: 20px auto;
+}
 
 .icon {color: #BCD2DA;}
 
